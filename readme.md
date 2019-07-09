@@ -30,3 +30,7 @@ You can check [./package.json](./package.json) for what that `dev` task is doing
 Copyright (C) Tony Crowe <github@tonycrowe.com> (https://tcrowe.github.io) 2019
 
 ⚖️ svelte-hydrate-test is Free Software protected by the GPL 3.0 license. See [./COPYING](./COPYING) for more information. (free as in freedom)
+
+---
+
+![./demo.png](./demo.png)
