@@ -138,6 +138,14 @@ server.use(
   })
 );
 
+server.use(
+  express.static(__dirname, {
+    etag: false,
+    lastModified: false,
+    setHeaders: res => nocache(null, res, noop)
+  })
+);
+
 // all URLs goto render
 server.get("*", render);
 

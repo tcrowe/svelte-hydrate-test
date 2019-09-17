@@ -33,6 +33,7 @@ export let bottomItems;
 </style>
 
 <div id="test-inner">
+  <img src="/svelte-logo-horizontal.svg" alt="svelte logo">
   <p><small>If you open the console you should notice that the client
   loads after 1sec and there should be no visible difference.</small></p>
   <div id="top" class="num-box">
